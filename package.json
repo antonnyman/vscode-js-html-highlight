@@ -1,6 +1,6 @@
 {
   "name": "vscode-js-html-highlight",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "displayName": "HTML Highlighter for template strings in JS/TS",
   "description": "HTML Highlighter for template strings in JS/TS",
   "author": "Anton Nyman <anton@antonnyman.se>",
