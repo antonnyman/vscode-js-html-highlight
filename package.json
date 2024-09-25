@@ -1,11 +1,32 @@
 {
   "name": "vscode-js-html-highlight",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "version": "0.0.1",
+  "displayName": "HTML Highlighter for template strings in JS/TS",
+  "description": "HTML Highlighter for template strings in JS/TS",
+  "author": "Anton Nyman <anton@antonnyman.se>",
+  "publisher": "antonnyman",
+  "icon": "img/512x512@2x.png",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/antonnyman/vscode-js-html-highlight.git"
   },
-  "author": "",
-  "license": "MIT"
+  "engines": {
+    "vscode": "^1.22.0"
+  },
+  "contributes": {
+    "grammars": [
+      {
+        "path": "./syntaxes/js-html-highlight.json",
+        "scopeName": "source.js.embedded.html",
+        "injectTo": [
+          "source.js",
+          "source.ts"
+        ],
+        "embeddedLanguages": {
+          "meta.embedded.block.html": "html"
+        }
+      }
+    ]
+  }
 }

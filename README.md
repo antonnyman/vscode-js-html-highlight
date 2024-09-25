@@ -1,15 +1,19 @@
 <div align="center">
-  <img src="img/gopher.png" alt="worktop" width="230" />
+  <img src="img/512x512@2x.png" alt="worktop" width="230" />
 </div>
 
-# VSCode syntax highlighting for SQL in raw string literals with Go
+# VSCode syntax highlighting for HTML JS/TS string template literals
 
-Highlight SQL in raw string literals.
+This plugin allows for syntax highlighting when working with HTML in string template literals. Useful if you're working in a simple Node/Bun/Deno project and just want to inline some HTML.
 
-```go
+```ts
 // Similar syntax to Apollo GraphQL higlighting in VSCode
 
-sql := /* sql */ `SELECT * FROM md;`
+let htmlString := /* html */ `<!DOCTYPE html><head><title>Hello World!</title></head><body></body></html>`
 ```
 
-[Add extension to VSCode](https://marketplace.visualstudio.com/items?itemName=antonnyman.go-sql-highlight)
+**Note!** This plugin will _just_ highlight. It doesn't support formatting, LSP etc.
+
+[Add extension to VSCode](https://marketplace.visualstudio.com/items?itemName=antonnyman.js-html-highlight)
+
+Working with SQL in raw string literals using Go? Check out my other plugin (that this one is based on): [SQL Syntax Highlighter for Go](https://github.com/antonnyman/vscode-go-sql-highlight)
