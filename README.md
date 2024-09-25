@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="img/512x512@2x.png" alt="worktop" width="230" />
+  <img src="img/brackets.png" alt="worktop" width="230" />
 </div>
 
 # VSCode syntax highlighting for HTML JS/TS string template literals
@@ -9,7 +9,7 @@ This plugin allows for syntax highlighting when working with HTML in string temp
 ```ts
 // Similar syntax to Apollo GraphQL higlighting in VSCode
 
-let htmlString := /* html */ `<!DOCTYPE html><head><title>Hello World!</title></head><body></body></html>`
+let htmlString = /* html */ `<!DOCTYPE html><head><title>Hello World!</title></head><body></body></html>`
 ```
 
 **Note!** This plugin will _just_ highlight. It doesn't support formatting, LSP etc.

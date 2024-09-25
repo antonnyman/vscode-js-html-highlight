@@ -20,3 +20,5 @@ Thumbs.db
 
 # Optional npm cache directory
 .npm
+
+*.vsix

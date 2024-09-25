@@ -5,7 +5,7 @@
   "description": "HTML Highlighter for template strings in JS/TS",
   "author": "Anton Nyman <anton@antonnyman.se>",
   "publisher": "antonnyman",
-  "icon": "img/512x512@2x.png",
+  "icon": "img/brackets.png",
   "license": "MIT",
   "repository": {
     "type": "git",
